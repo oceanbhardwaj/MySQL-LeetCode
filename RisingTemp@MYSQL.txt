@@ -1,0 +1,2 @@
+# Write your MySQL query statement below
+select W1.id  from Weather W1 CROSS JOIN Weather W2 where DATEDIFF(W1.recordDate,W2.recordDate)=1 and W1.Temperature> W2.Temperature;
