@@ -1,0 +1,1 @@
+SELECT (Salary*months) as sal ,count(*) from Employee group by sal order by sal desc limit 1;
